@@ -10,3 +10,9 @@ city varchar(50),
 joindate date
 
 );
+
+create table authors (
+authorid int primary key,
+authorname varchar(100),
+country varchar(50)
+);
